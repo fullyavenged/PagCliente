@@ -1,0 +1,175 @@
+/* Estilos generales */
+body{
+    background-color: white !important;
+    font-family: 'Lato', sans-serif !important;
+}
+header{
+    background-color: white;
+}
+header p{
+    font-weight: bold;
+}
+@media (max-width: 991px) {
+    #logodiv{
+        text-align: center !important;
+    }
+  }
+
+#logo{
+    width: 200px;
+}
+
+.btn-lg{
+   margin-bottom: 10px;
+}
+@media (min-width: 991px){
+    .btn-lg{
+        margin-top: 25%;
+        margin-left: 25%;
+    }
+}
+
+.bg-dark{
+    background-color: #1A245C !important;
+    color: white;
+}
+
+.navbar-brand{
+    color: white !important;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+aside{
+    margin-top: 20px;
+}
+
+section{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.asideimg{
+    margin-bottom: 20px;
+}
+
+article{
+    margin-top: 20px;
+}
+
+article h2{
+    color: #32AE40;
+}
+article h5{
+    color: #32AE40;
+}
+article p{
+    text-align: justify;
+}
+article div{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+article ul{
+    list-style-image: url(../Imagenes/marker.png);
+}
+#introimg{
+    float: right;
+    margin: 7px;
+}
+.jumbotron{
+    color: white;
+    background-color: #1A245C !important;
+    padding: 10px;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+#amodal{
+    color: #E6443E;
+}
+
+#amodal:hover{
+    color: white;
+}
+
+.modal-title{
+    color: black;
+}
+
+
+/* Estilos para La autoescuela.html */
+.tdhtable{
+    background-color: #32AE40;
+     width: 220px;
+    height: 60px;
+}
+
+/* Estilos para cursos */
+#cursosmenu{
+    background-color:#1A245C ;
+    margin-left: 15px;
+    padding: 5px;
+    color: white;
+}
+
+#cursosinfo{
+    background-color: white;
+    padding: 5px;
+}
+#cursostable{
+    padding-left: 5px;
+    list-style-type: none;
+    margin-bottom: 0px;
+}
+#cursostable li a{
+    text-decoration: none;
+    padding: 7px 15px 0;
+    color: black;
+}
+
+#cursostable li a:hover{
+    color: #E6443E;
+}
+
+#cursostable li{
+    border-bottom: 2px solid #000000;
+}
+
+/* Estilos para Tests */
+.tipoc{
+    color: grey;
+    padding-left: 15px;
+}
+
+/* Estilos para Tests */
+article a{
+    color: black;
+    text-decoration: none;
+}
+
+article a:hover{
+    color: #E6443E;
+    text-decoration: none;
+}
+
+.testsimg{
+    width: 350px;
+    height: 150px;
+}
+
+/* Estilos para Formacion */
+.smol{
+    font-size: 11.9px;
+}
+
+/* Estilos para LogIn Modal */
+
+.btn-default{
+    background-color: #2BBBAD;
+}
+
+.btn-default:hover{
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
+}
